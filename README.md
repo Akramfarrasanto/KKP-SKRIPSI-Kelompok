@@ -54,21 +54,31 @@
 
 ### R (READ) Membaca atau melihat data dari database
 1. Tabel Mahasiswa
+![](foto_tk/desc/mahasiswa.png)
 
 2. Tabel Dosen
+![](foto_tk/desc/dosen.png)
 
 3. Tabel Bimbingan
+![](foto_tk/desc/bimbingan.png)
 
 4. Tabel Jadwal Bimbingan
+![](foto_tk/desc/jadwal%20bimbingan.png)
 
 5. Tabel Laporan Transaksi
+![](foto_tk/desc/laporan%20transaksi.png)
 
 ### U (Update) Mengubah data yang sudah ada
+1. update data dosen
+![](foto_tk/update/update%20dosen.png)
+
 
 ### D (Delete) Menghapus data atau kolom pada database
+1. delete data dosen where id_dosen = 4348, Elma
+Cannot delete or update a parent row: a foreign key constraint fails (`tgs_klompok`.`bimbingan`, CONSTRAINT `bimbingan_ibfk_2` FOREIGN KEY (`ID_Dosen`) REFERENCES `dosen` (`ID_Dosen`))
+
 
 ## SQL JOIN
-
 
 ## Join antara tabel Bimbingan dengan Mahasiswa bedasarkan ID_Mahasiswa yang menampilkan tabel yang sudah menyerahkan kkp 
 SELECT Bimbingan.*, Mahasiswa.Nama_Mahasiswa
