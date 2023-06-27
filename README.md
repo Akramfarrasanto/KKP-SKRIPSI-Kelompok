@@ -126,3 +126,4 @@ FROM Bimbingan
 JOIN Jadwal_Bimbingan ON Bimbingan.ID_Bimbingan = Jadwal_Bimbingan.ID_Bimbingan
 JOIN Mahasiswa ON Bimbingan.ID_Mahasiswa = Mahasiswa.ID_Mahasiswa
 WHERE Waktu = '09:00:00';
+![](foto_tk/join/16.png)
