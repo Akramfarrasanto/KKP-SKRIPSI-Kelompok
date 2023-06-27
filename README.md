@@ -88,6 +88,7 @@ WHERE Nama_Dosen = 'Purnama';
 SELECT Nama_Mahasiswa, NIM, Program_Studi
 FROM Mahasiswa 
 WHERE Program_Studi = 'Teknik Informatika';
+![]
 
 ## Join antara tabel Bimbingan, Jadwal_Bimbingan, dan Mahasiswa bedasarkan ID_Bimbingan yang menampilkan tabel yang bedasarkan Waktu Bimbingan
 SELECT Bimbingan.*, Jadwal_Bimbingan.Tanggal, Jadwal_Bimbingan.Waktu, Mahasiswa.Nama_Mahasiswa
