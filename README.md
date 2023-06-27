@@ -15,3 +15,7 @@
 #### 2. Membuat Table pada Database
 1. Tabel Mahasiswa
 ![](foto_tk/tabel/tabel%20mahasiswa.png)
+
+2. Tabel bimbingan
+
+3. Tabel 
