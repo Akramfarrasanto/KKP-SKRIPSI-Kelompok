@@ -14,4 +14,24 @@
 
 #### 2. Membuat Table pada Database
 1. Tabel Mahasiswa
+
 ![](foto_tk/tabel/tabel%20mahasiswa.png)
+
+2. Tabel Dosen
+
+![](foto_tk/tabel/tabel%20dosen.png)
+
+3. Tabel Bimbingan
+
+![](foto_tk/tabel/tabel%20bimbingan.png)
+
+4. Tabel Jadwal Bimbingan
+
+![](foto_tk/tabel/tabel%20jadwal%20bimbingan.png)
+
+5. Tabel Laporan Transaksi
+
+![](foto_tk/tabel/tabel%20laporan_transaksi.png)
+
+#### 3 Memasukan Data pada Table
+1. Tabel Mahasiswa
