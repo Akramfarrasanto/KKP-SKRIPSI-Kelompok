@@ -1,6 +1,6 @@
 # KKP-SKRIPSI-Kelompok
 
-## ERD
+##  ERD
 
 ![](foto_tk/gambar%20erd%20new.png)
 
