@@ -36,10 +36,33 @@
 
 #### 3 Memasukan Data pada Table
 1. Tabel Mahasiswa
-=======
-![](foto_tk/tabel/tabel%20mahasiswa.png)
 
-2. Tabel bimbingan
+![](foto_tk/insert/insert%20mahasiswa.png)
 
-3. Tabel 
+2. Tabel Dosen
+
+![](foto_tk/insert/insert%20dosen.png)
+
+3. Tabel Bimbingan
+
+![](foto_tk/insert/insert%20bimbingan.png)
+
+constraint bimbingan
+
+menambahkan constrain dari tabel bimbingan (ID_Mahasiswa) referensi tabel mahasiswa (ID_Mahasiswa)
+menambahkan constrain dari tabel bimbingan (ID_Dosen) referensi tabel dosen (ID_Dosen)
+
+![](foto_tk/constraint/constraint%20bimbingan.png)
+
+4. Tabel Jadwal Bimbingan
+
+![](foto_tk/tabel/tabel%20jadwal%20bimbingan.png)
+
+5. Tabel Laporan Transaksi
+
+![](foto_tk/insert/insert%20laporan%20transaksi.png)
+
+
+
+
 
