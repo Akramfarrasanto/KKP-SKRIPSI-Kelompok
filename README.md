@@ -14,7 +14,6 @@
 
 #### 2. Membuat Table pada Database
 1. Tabel Mahasiswa
-<<<<<<< HEAD
 
 ![](foto_tk/tabel/tabel%20mahasiswa.png)
 
@@ -62,7 +61,45 @@ menambahkan constrain dari tabel bimbingan (ID_Dosen) referensi tabel dosen (ID_
 
 ![](foto_tk/insert/insert%20laporan%20transaksi.png)
 
+### R (READ) Membaca atau melihat data dari database
+1. Tabel Mahasiswa
+
+2. Tabel Dosen
+
+3. Tabel Bimbingan
+
+4. Tabel Jadwal Bimbingan
+
+5. Tabel Laporan Transaksi
+
+### U (Update) Mengubah data yang sudah ada
+
+### D (Delete) Menghapus data atau kolom pada database
+
+## SQL JOIN
 
 
+## Join antara tabel Bimbingan dengan Mahasiswa bedasarkan ID_Mahasiswa yang menampilkan tabel yang sudah menyerahkan kkp 
+SELECT Bimbingan.*, Mahasiswa.Nama_Mahasiswa
+FROM Bimbingan
+JOIN Mahasiswa ON Bimbingan.ID_Mahasiswa = Mahasiswa.ID_Mahasiswa;
+WHERE Catatan = 'kkp sudah diserahkan'
 
+## Join antara tabel Bimbingan, Mahasiswa dan Dosen bedasarkan ID_Dosen yang menampilkan tabel bedasarkan Nama_Dosen
+SELECT Bimbingan.*, Mahasiswa.Nama_Mahasiswa, Dosen.Nama_Dosen
+FROM Bimbingan
+JOIN Mahasiswa ON Bimbingan.ID_Mahasiswa = Mahasiswa.ID_Mahasiswa
+JOIN Dosen ON Bimbingan.ID_Dosen = Dosen.ID_Dosen;
+WHERE Nama_Dosen = 'Purnama';
 
+## Menampilkan Nama Mahasiswa bedasarkan Program Studi yang ditampuh ''
+SELECT Nama_Mahasiswa, NIM, Program_Studi
+FROM Mahasiswa 
+WHERE Program_Studi = 'Teknik Informatika';
+
+## Join antara tabel Bimbingan, Jadwal_Bimbingan, dan Mahasiswa bedasarkan ID_Bimbingan yang menampilkan tabel yang bedasarkan Waktu Bimbingan
+SELECT Bimbingan.*, Jadwal_Bimbingan.Tanggal, Jadwal_Bimbingan.Waktu, Mahasiswa.Nama_Mahasiswa
+FROM Bimbingan
+JOIN Jadwal_Bimbingan ON Bimbingan.ID_Bimbingan = Jadwal_Bimbingan.ID_Bimbingan
+JOIN Mahasiswa ON Bimbingan.ID_Mahasiswa = Mahasiswa.ID_Mahasiswa
+WHERE Waktu = '09:00:00';
