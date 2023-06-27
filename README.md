@@ -1,13 +1,15 @@
 # KKP-SKRIPSI-Kelompok
 
-## ERD
+## A. ERD
 
 ![](foto_tk/gambar%20erd%20new.png)
 
-## DDL
+## B. DDL
 
-## SQL CRUD
-### C (Create) Membuat databases, Tabel, dan membuat data
+KOSONG
+
+## C. SQL CRUD
+### (Create) Membuat databases, Tabel, dan memasukkan data
 #### 1. Membuat Database
 
 ![create](foto_tk/create%20%26%20use%20databs.png)
