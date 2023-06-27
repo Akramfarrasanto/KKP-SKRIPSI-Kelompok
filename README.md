@@ -42,4 +42,4 @@
 2. Tabel bimbingan
 
 3. Tabel 
->>>>>>> g
+
