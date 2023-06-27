@@ -13,3 +13,5 @@
 ![create](foto_tk/create%20%26%20use%20databs.png)
 
 #### 2. Membuat Table pada Database
+1. Tabel Mahasiswa
+![](foto_tk/tabel/tabel%20mahasiswa.png)
