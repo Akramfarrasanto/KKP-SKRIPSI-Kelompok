@@ -30,7 +30,7 @@ KOSONG
 5. Tabel Laporan Transaksi
 ![](foto_tk/tabel/tabel%20laporan_transaksi.png)
 
-#### 3 Memasukan Data pada Table
+#### 3. Memasukan Data pada Table
 1. Tabel Mahasiswa
 ![](foto_tk/insert/insert%20mahasiswa.png)
 
@@ -43,7 +43,7 @@ KOSONG
 4. Tabel Laporan Transaksi
 ![](foto_tk/insert/insert%20laporan%20transaksi.png)
 
-#### 4 constraint bimbingan
+#### 4. constraint bimbingan
 
 1. Menambahan constraint tabel bimbingan (ID_Mahasiswa) referensi tabel mahasiswa dan tabel bimbingan (ID_Dosen) referensi tabel dosen
 ![](foto_tk/constraint/constraint%20bimbingan.png)
@@ -82,29 +82,31 @@ Cannot delete or update a parent row: a foreign key constraint fails (`tgs_klomp
 
 ## SQL JOIN
 
-## Join antara tabel Bimbingan dengan Mahasiswa bedasarkan ID_Mahasiswa yang menampilkan tabel yang sudah menyerahkan kkp 
+## 1. Join antara tabel Bimbingan dengan Mahasiswa bedasarkan ID_Mahasiswa yang menampilkan tabel yang sudah menyerahkan kkp 
 SELECT Bimbingan.*, Mahasiswa.Nama_Mahasiswa
 FROM Bimbingan
 JOIN Mahasiswa ON Bimbingan.ID_Mahasiswa = Mahasiswa.ID_Mahasiswa;
 WHERE Catatan = 'kkp sudah diserahkan'
-![]()
+![](foto_tk/join/15.png)
 
-## Join antara tabel Bimbingan, Mahasiswa dan Dosen bedasarkan ID_Dosen yang menampilkan tabel bedasarkan Nama_Dosen
+## 2. Join antara tabel Bimbingan, Mahasiswa dan Dosen bedasarkan ID_Dosen yang menampilkan tabel bedasarkan Nama_Dosen
 SELECT Bimbingan.*, Mahasiswa.Nama_Mahasiswa, Dosen.Nama_Dosen
 FROM Bimbingan
 JOIN Mahasiswa ON Bimbingan.ID_Mahasiswa = Mahasiswa.ID_Mahasiswa
 JOIN Dosen ON Bimbingan.ID_Dosen = Dosen.ID_Dosen;
 WHERE Nama_Dosen = 'Purnama';
 
-## Menampilkan Nama Mahasiswa bedasarkan Program Studi yang ditampuh ''
+
+## 3. Menampilkan Nama Mahasiswa bedasarkan Program Studi yang ditampuh ''
 SELECT Nama_Mahasiswa, NIM, Program_Studi
 FROM Mahasiswa 
 WHERE Program_Studi = 'Teknik Informatika';
-![]
+![](foto_tk/join/14.png)
 
-## Join antara tabel Bimbingan, Jadwal_Bimbingan, dan Mahasiswa bedasarkan ID_Bimbingan yang menampilkan tabel yang bedasarkan Waktu Bimbingan
+## 4. Join antara tabel Bimbingan, Jadwal_Bimbingan, dan Mahasiswa bedasarkan ID_Bimbingan yang menampilkan tabel yang bedasarkan Waktu Bimbingan
 SELECT Bimbingan.*, Jadwal_Bimbingan.Tanggal, Jadwal_Bimbingan.Waktu, Mahasiswa.Nama_Mahasiswa
 FROM Bimbingan
 JOIN Jadwal_Bimbingan ON Bimbingan.ID_Bimbingan = Jadwal_Bimbingan.ID_Bimbingan
 JOIN Mahasiswa ON Bimbingan.ID_Mahasiswa = Mahasiswa.ID_Mahasiswa
 WHERE Waktu = '09:00:00';
+![](foto_tk/join/16.png)
