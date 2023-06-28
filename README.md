@@ -12,6 +12,7 @@
 ![](foto_tk/tabel/tabel%20mahasiswa.png)
 
 2. Tabel Dosen
+
 ![](foto_tk/tabel/tabel%20dosen.png)
 
 3. Tabel Bimbingan
@@ -52,6 +53,7 @@
 ![](foto_tk/desc/mahasiswa.png)
 
 2. Tabel Dosen
+
 ![](foto_tk/desc/dosen.png)
 
 3. Tabel Bimbingan
@@ -69,6 +71,7 @@
 
 ### D (Delete) Menghapus data pada tabel
 1. Menghapus nama elma dari data dosen
+
 ![](foto_tk/delete/hapus%20elma.png)
 
 ## SQL JOIN
