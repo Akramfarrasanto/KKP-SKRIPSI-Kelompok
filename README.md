@@ -70,9 +70,12 @@
 ![](foto_tk/updatee/update%20dosen.png)
 
 ### D (Delete) Menghapus data pada tabel
-1. Menghapus nama elma dari data dosen
-
+1. Menghapus nama elma dari data dosen, pertama menggunakan ini
+`SET FOREIGN_KEY_CHECKS=0;`
 ![](foto_tk/delete/hapus%20elma.png)
+
+dan kedua 
+`SET FOREIGN_KEY_CHECKS=1;`
 
 ## SQL JOIN
 ## 1. Join antara tabel Bimbingan dengan Mahasiswa bedasarkan ID_Mahasiswa yang menampilkan tabel yang sudah menyerahkan kkp 
