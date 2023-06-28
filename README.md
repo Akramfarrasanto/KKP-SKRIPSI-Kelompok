@@ -4,10 +4,10 @@
 ![](foto_tk/gambar%20erd%20new.png)
 
 ## B. DDL
-#### 1. Membuat Database
+### 1. Membuat Database
 ![create](foto_tk/create%20%26%20use%20databs.png)
 
-#### 2. Membuat Table pada Database
+### 2. Membuat Table pada Database
 #### 1. Tabel Mahasiswa
 ![](foto_tk/tabel/tabel%20mahasiswa.png)
 
@@ -49,20 +49,20 @@
 ![](foto_tk/insert/insert%20laporan%20transaksi.png)
 
 ### R (READ) Membaca atau melihat data dari tabel
-1. Tabel Mahasiswa
+#### 1. Tabel Mahasiswa
 ![](foto_tk/desc/mahasiswa.png)
 
-2. Tabel Dosen
+#### 2. Tabel Dosen
 
 ![](foto_tk/desc/dosen.png)
 
-3. Tabel Bimbingan
+#### 3. Tabel Bimbingan
 ![](foto_tk/desc/bimbingan.png)
 
-4. Tabel Jadwal Bimbingan
+#### 4. Tabel Jadwal Bimbingan
 ![](foto_tk/desc/jadwal%20bimbingan.png)
 
-5. Tabel Laporan Transaksi
+#### 5. Tabel Laporan Transaksi
 ![](foto_tk/desc/laporan%20transaksi.png)
 
 ### U (Update) Mengubah data yang sudah ada
