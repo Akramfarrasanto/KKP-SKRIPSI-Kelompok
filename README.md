@@ -76,6 +76,7 @@
 
 dan kedua 
 `SET FOREIGN_KEY_CHECKS=1;`
+ Kegunaanya untuk mengaktifkan atau menonaktifkan kunci asing saat melakukan operasi insert, update, delete
 
 ## SQL JOIN
 ## 1. Join antara tabel Bimbingan dengan Mahasiswa bedasarkan ID_Mahasiswa yang menampilkan tabel yang sudah menyerahkan kkp 
