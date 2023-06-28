@@ -95,5 +95,3 @@ dan kedua
 `SELECT Bimbingan.*, Jadwal_Bimbingan.Tanggal, Jadwal_Bimbingan.Waktu, Mahasiswa.Nama_Mahasiswa FROM Bimbingan JOIN Jadwal_Bimbingan ON Bimbingan.ID_Bimbingan = Jadwal_Bimbingan.ID_Bimbingan JOIN Mahasiswa ON Bimbingan.ID_Mahasiswa = Mahasiswa.ID_Mahasiswa WHERE Waktu = '09:00:00';`
 ![](foto_tk/join/16.png)
 
-### 123443xfxrehfytcfgweaea23426edrtc
-ghghvhyfghvhgyygkuhb mgeardxbcj
