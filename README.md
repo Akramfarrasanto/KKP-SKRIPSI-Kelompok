@@ -65,7 +65,7 @@
 
 ### U (Update) Mengubah data yang sudah ada
 1. Mengubah nama elma dari data dosen
-![](foto_tk/update/update%20dosen.png)
+![](foto_tk/updatee/update%20dosen.png)
 
 ### D (Delete) Menghapus data pada tabel
 1. Menghapus nama elma dari data dosen
